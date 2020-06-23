@@ -19,7 +19,7 @@ function getCategory(e){
 }
 
 async function getCategoryData(categoryName){
-    let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${categoryName}&apiKey=6b772943c96d488ea6908263f9718bca`);
+    let res = await fetch(`https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=in&category=${categoryName}&apiKey=6b772943c96d488ea6908263f9718bca`);
     let data = await res.json();
     
     cHeader.style.display = '';
