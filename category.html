@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NewsAtGlance</title>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    
+    <link rel="stylesheet" href="assets/css/Article-Cards.css">
+    <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Cards-v2.css">
+    <link rel="stylesheet" href="assets/css/Brands.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer-1.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md" id="navbar1" style="font-family: ABeeZee, sans-serif; opacity: 1;">
+        <div class="container"><a class="navbar-brand" href="index.html" style="font-family: 'Playfair Display', serif;font-size: 28px;color: white;">NewsAtGlance</a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html" style="color: white;">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="category.html" style="color: white;">Categories</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="country.html" style="color: white;">Country</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="sources.html" style="color: white;">Sources</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="api.html" style="color: white;">API</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="jumbotron hero-nature carousel-hero">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-subtitle"></p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-photography carousel-hero">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-subtitle"></p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-technology carousel-hero">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-subtitle"></p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-technology carousel-hero">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-subtitle"></p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-technology carousel-hero">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-subtitle"></p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+        <ol
+            class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+            <li data-target="#carousel-1" data-slide-to="4"></li>
+            </ol>
+    </div>
+    <div id="categoryBox">
+        <h1 style="font-family: 'Playfair Display', serif;">Select Category From Below</h1>
+    </div>
+    <hr>
+    <div id="buttons" class="container"><button class="btn btn-primary" id="categoryBtn" type="button">Business</button><button class="btn btn-primary" id="categoryBtn" type="button">Technology</button><button class="btn btn-primary" id="categoryBtn" type="button">Entertainment</button>
+        <button
+            class="btn btn-primary" id="categoryBtn" type="button">Health</button><button class="btn btn-primary" id="categoryBtn" type="button">Science</button><button class="btn btn-primary" id="categoryBtn" type="button">Sports</button></div>
+    <hr>
+    <div id="cHeader">
+        <h1>Now You Are Seeing&nbsp;<span id="cNow"></span>&nbsp;News</h1>
+    </div>
+    <div class="article-list">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+                <div class="col-sm-6 col-md-4 item" id="article"><img id="c-img" class="img-fluid">
+                    <h3 id="c-title" class="name"></h3>
+                    <p id="c-text" class="description"></p><a id="c-link" class="action" href="#">Learn More&nbsp;<i class="fas fa-arrow-alt-circle-right" style="color: rgb(17,153,142);"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div id="cFooter" style="background-color:rgba(58,47,47,0);background-image:url(&quot;assets/img/footer.png&quot;);background-size:cover;background-repeat:no-repeat;height:366px;">
+        <div class="container">
+            <hr>
+            <h1 class="text-center" style="font-family: 'Playfair Display', serif;font-size: 46px;color: rgb(0,0,0);">NewsAtGlance</h1>
+            <hr>
+            <ul class="list-inline" id="text_decoration" style="margin-top:30px;font-family:ABeeZee, sans-serif;">
+                <li class="list-inline-item"><a class="decoration" style="color:rgb(0,0,0);font-size:20px;margin-right:10px;" href="index.html">Home</a></li>
+                <li class="list-inline-item"><a style="font-size:20px;color:rgb(0,0,0);margin-right:10px;" href="category.html">Categories</a></li>
+                <li class="list-inline-item"><a style="font-size:20px;color:rgb(0,0,0);margin-right:10px;" href="country.html">Country</a></li>
+                <li class="list-inline-item"><a style="color:rgb(0,0,0);font-size:20px;margin-right:10px;" href="sources.html">Sources</a></li>
+                <li class="list-inline-item"><a style="color:rgb(0,0,0);font-size:20px;" href="api.html">API</a></li>
+            </ul>
+            <p class="text-center" style="margin-top:30px;margin-bottom:15px;">
+            </p>
+            <p class="text-center" style="color:rgb(193,184,184);font-family:ABeeZee, sans-serif;margin-bottom:23px;">NewsAtGlance©2020</p>
+        </div>
+    </div>
+    <script src="assets/js/category.js"></script>
+    <script src="assets/js/index.js"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

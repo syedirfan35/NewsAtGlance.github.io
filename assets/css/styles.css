@@ -1,0 +1,79 @@
+.container {
+  background-color: linear-gradient(to right, rgb(248, 87, 166), rgb(255, 88, 88));
+}
+
+#navbar1 {
+  color: linear-gradient(to right, rgb(248, 87, 166), rgb(255, 88, 88));
+}
+
+#navbar1 {
+  background-image: linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125));
+}
+
+.btn {
+  background-image: linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125));
+}
+
+.btn.btn-primary.btn-lg.hero-button {
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 25px;
+    /*padding: 5px;*/
+    /*margin-top: 10px;*/
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-subtitle {
+    font-size: 15px;
+  }
+}
+
+.h1, h1 {
+}
+
+#topStory {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#cardimg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  margin-bottom: 53px;
+}
+
+#article {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 600px) {
+  #allImgs {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+}
+
